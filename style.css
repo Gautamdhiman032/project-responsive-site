@@ -1,0 +1,239 @@
+/* CSS Rest */
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* CSS variables */
+:root {
+    --navbar-height: 60px;
+}
+
+/* Navigaion Bar */
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+/* Navigation bar: logo and image */
+#logo {
+    margin: -5px 12px;
+
+}
+
+#logo img {
+    height: 84px;
+    margin: 9px 4px;
+    border-radius: 40px;
+}
+
+/* Navigation bar: list styling */
+
+
+#navbar ul {
+    display: flex;
+    font-family: "Kalam", cursive;
+}
+
+#navbar ul li {
+
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 3px 17px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+
+}
+
+/* Home section */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 240px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* pseudo code */
+#home::before {
+    background: url('bgimg.1.avif') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 80%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+#home h1{
+    color: white;
+    text-align: center;
+    font-family: "Kalam", cursive;
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.2;
+    font-family: "Kalam", cursive;
+}
+/* services section */
+.services-container{
+    position: relative;
+}
+#services{
+    margin: 34px;
+    display: flex;
+}
+#services .box{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 30px;
+    margin: 3px 6px;
+    border-radius: 23px;
+    background-color: rgb(230, 230, 230);
+}
+#services .box img{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    display: block;
+    border-radius: 50px;
+    
+}
+#services .box p{
+    font-family: "Kalam", cursive;
+    font-size: 0.85rem;
+}
+
+
+/* Client section */
+#client-section{
+    
+    position: relative;
+}
+
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url("img4.jpeg") no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.client-item{
+    padding: 34px;
+    mix-blend-mode: darken;
+}
+#clients img{
+   height: 124px;
+}
+
+/* Conatct section */
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url("contactimg1.jpeg") no-repeat center center/cover;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 2px;
+    font-size: 1.4rem;
+
+}
+#contact-box form{
+    width: 40%;
+
+}
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: "Kalam", cursive;
+
+}
+footer{
+    background: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+/* Utility class */
+.h-primary{
+    font-family: "Kalam", cursive;
+    font-size: 2.8rem;
+    padding: 83px 20px 6px;
+    text-shadow: 13px 9px 19px rgb(0, 0, 0);
+}
+.h-secondary{
+    font-family: "Kalam", cursive;
+    font-size: 2.3rem;
+    padding: 0px;
+}
+.btn1{
+    padding: 6px 20px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #64646400;
+    color: white;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 8px 6px 22px rgb(0, 0, 0);
+    cursor: pointer;
+    font-family: "Kalam", cursive;
+}
+.btn1:hover {
+    background-color: rgb(53, 53, 53);
+}
+
+.center{
+    text-align: center;
+}
