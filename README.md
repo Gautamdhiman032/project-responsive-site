@@ -10,7 +10,7 @@ A modern, fully responsive webpage designed using HTML and CSS. This project rep
 Optimized for all devices — desktops, tablets, and smartphones — ensuring a consistent experience across screen sizes.
 
 ## 💻 Live Demo
-👉 [Click here to view live](https://gautamdhiman032.github.io/apple-webpage-clone/)
+👉 [Click here to view live](https://gautamdhiman032.github.io/project-responsive-site/)
 
 ## ✨ Key Features
 - Responsive layout with fluid design
@@ -20,7 +20,7 @@ Optimized for all devices — desktops, tablets, and smartphones — ensuring a 
 
 ## 📂 How to Use
 1. Clone the repository  
-   `git clone https://github.com/gautamdhiman032/apple-webpage-clone.git`
+   `git clone https://github.com/Gautamdhiman032/apple-webpage-clone.git`
 
 2. Open `index.html` in your browser
 
